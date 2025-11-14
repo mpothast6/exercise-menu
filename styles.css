@@ -1,0 +1,56 @@
+
+body {
+	background-color: #fff;
+}
+
+code {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 3px double gray;
+    margin-bottom: 20px;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+.menu {
+    background-color: silver;
+    border: 1px solid gray;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0px;
+}
+
+.list-item {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.list-item:hover {
+    color: white;
+    background-color: grey;
+}
+
+.current-page {
+    color: white;
+    background-color: grey;    
+}
+
+
+.main{
+    border: 3px double gray;
+    background-color: #ffffff;
+    padding: 10px;
+}

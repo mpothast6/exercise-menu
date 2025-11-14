@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Styling Links: Horizontal Menus (flexbox)</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+			<h1>Using Lists for Navigation: Horizontal Menus</h1>
+			<p><code>display: flex</code> method</p>
+			<nav class="menu">
+				<ul class="link-list">
+					
+                    <li>
+						<a href="index-1.html" class="list-item current-page">Home</a>
+					</li>
+					<li>
+						<a href="1-menu.html" class="list-item">Menu</a>
+					</li>
+					<li>
+						<a href="2-menu.html" class="list-item">Tabs</a>
+					</li>
+					<li>
+						<a href="About" class="list-item">About</a>
+					</li>
+					<li>
+						<a href="Contact" class="list-item">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<article>
+				<h2><code>display: flex</code> Method</h2>
+
+				<p>This menu is using <code>display: flex</code> to create horizontal display</p>
+
+				<p>With flexbox, you need a "flex container" to lay out the children. In this case, the flex container
+					is the unordered list, and the children are the list items, so the semantic structure of your menu
+					is ready for flexbox without anything else needed in the markup!</p>
+
+				<p>This is a really simple flex menu. The width of the "buttons" is just the width of the contents
+					(text) plus padding on the anchor tag, which has been styled to generate a block display box.</p>
+
+
+			</article>
+		</main>
+
+	</div>
+</body>
